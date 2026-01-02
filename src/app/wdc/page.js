@@ -15,15 +15,15 @@ export default function WDCPage() {
             Think coding is challenging? Try mastering web design! This sentiment truly captures the spirit of the Web Development Cell at NIT Patna. 🌐
           </p>
           <p className="text-sm md:text-lg text-muted-foreground">
-          Our mission is to ensure that the Institute's website reaches every corner of India, fostering a platform for learning and critical thinking. Through our efforts, we aim to contribute to a brighter and more informed future.
+            Our mission is to ensure that the Institute's website reaches every corner of India, fostering a platform for learning and critical thinking. Through our efforts, we aim to contribute to a brighter and more informed future.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12">
           <div className="bg-gradient-to-br from-red-900 via-red-800 to-red-700 dark:from-red-950 dark:via-red-900 dark:to-red-800 rounded-xl border border-red-700/50 p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
             <div className="flex items-center justify-center gap-3 mb-6 text-white bg-white/10 px-4 py-2 rounded-full">
-               <GraduationCap size={20} />
-               <h3 className="text-lg font-semibold">Professor In Charge</h3>
+              <GraduationCap size={20} />
+              <h3 className="text-lg font-semibold">Professor In Charge</h3>
             </div>
             <Image
               src="https://drive.google.com/uc?export=view&id=1Abn5VMv4oWnpUYyNtO_j-mrh5YBNzD-C"
@@ -38,20 +38,20 @@ export default function WDCPage() {
               Cloud Computing, Nature Inspired Algorithms, Edge Computing, Workflow Scheduling Algorithm, Optimization, Quantum Computing
             </p>
             <Button
-               variant="secondary"
-               className="bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm"
-               asChild
-             >
-               <Link href="https://www.nitp.ac.in/Department/CSE/faculty/balaji.cs@nitp.ac.in" target="_blank" rel="noopener noreferrer">
-                 <ExternalLink size={18} className="mr-2" /> View Faculty Profile
-               </Link>
-             </Button>
+              variant="secondary"
+              className="bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm"
+              asChild
+            >
+              <Link href="https://www.nitp.ac.in/Department/CSE/faculty/balaji.cs@nitp.ac.in" target="_blank" rel="noopener noreferrer">
+                <ExternalLink size={18} className="mr-2" /> View Faculty Profile
+              </Link>
+            </Button>
           </div>
 
           <div className="bg-card rounded-xl border border-border p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center">
-             <div className="flex items-center justify-center gap-3 mb-6 text-red-900 dark:text-red-500 bg-red-900/10 px-4 py-2 rounded-full">
-               <User size={20} />
-               <h3 className="text-lg font-semibold">Student Developer</h3>
+            <div className="flex items-center justify-center gap-3 mb-6 text-red-900 dark:text-red-500 bg-red-900/10 px-4 py-2 rounded-full">
+              <User size={20} />
+              <h3 className="text-lg font-semibold">Student Developer</h3>
             </div>
             <Image
               src="https://avatars.githubusercontent.com/u/114145991?v=4"
@@ -60,30 +60,41 @@ export default function WDCPage() {
               height={160}
               className="rounded-full mb-6 border-2 border-border shadow-md"
             />
-            <h3 className="text-2xl font-bold text-center mb-2">Ashish Kumar</h3>
+            <Link href="https://techscript.in/" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 dark:hover:text-red-400 transition-colors">
+              <h3 className="text-2xl font-bold text-center mb-2">Ashish Kumar</h3>
+            </Link>
             <p className="text-center text-muted-foreground mb-2">Lead Web Developer</p>
             <p className="text-center text-sm text-muted-foreground mb-6">
               Database Management, Full Stack Developer
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-auto">
               <Button
-                 variant="outline"
-                 className="border-red-900/20 hover:bg-red-900/10 dark:border-red-700/20 dark:hover:bg-red-700/10 text-red-900 dark:text-red-500"
-                 asChild
-               >
-                 <Link href="https://www.linkedin.com/in/ashish-kumar-nitp/" target="_blank" rel="noopener noreferrer">
-                   <Linkedin size={18} className="mr-2" /> View LinkedIn
-                 </Link>
-               </Button>
-               <Button
-                 variant="outline"
-                 className="border-gray-500/30 hover:bg-gray-500/10 dark:border-gray-600/30 dark:hover:bg-gray-600/10 text-gray-700 dark:text-gray-300"
-                 asChild
-               >
-                 <Link href="https://github.com/ashishkr375" target="_blank" rel="noopener noreferrer">
-                   <Github size={18} className="mr-2" /> View GitHub
-                 </Link>
-               </Button>
+                variant="outline"
+                className="border-red-900/20 hover:bg-red-900/10 dark:border-red-700/20 dark:hover:bg-red-700/10 text-red-900 dark:text-red-500"
+                asChild
+              >
+                <Link href="https://www.linkedin.com/in/ashish-kumar-nitp/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin size={18} className="mr-2" /> View LinkedIn
+                </Link>
+              </Button>
+              <Button
+                variant="outline"
+                className="border-blue-600/30 hover:bg-blue-600/10 dark:border-blue-500/30 dark:hover:bg-blue-500/10 text-blue-700 dark:text-blue-400"
+                asChild
+              >
+                <Link href="https://ashishk.online/" target="_blank" rel="noopener noreferrer">
+                  <ExternalLink size={18} className="mr-2" /> Portfolio
+                </Link>
+              </Button>
+              <Button
+                variant="outline"
+                className="border-gray-500/30 hover:bg-gray-500/10 dark:border-gray-600/30 dark:hover:bg-gray-600/10 text-gray-700 dark:text-gray-300"
+                asChild
+              >
+                <Link href="https://github.com/ashishkr375" target="_blank" rel="noopener noreferrer">
+                  <Github size={18} className="mr-2" /> View GitHub
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
